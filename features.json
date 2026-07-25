@@ -119,6 +119,32 @@
     ]
   },
   {
+    "name": "AI",
+    "canonicalKey": "ai",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-center"
+    ],
+    "sourceProjects": [
+      "AIPrecisionFermentationProcessOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
+        "path": "client/src/pages/AICenterPage.jsx:1",
+        "route": "/ai-center",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      }
+    ]
+  },
+  {
     "name": "AI Admet",
     "canonicalKey": "admet ai",
     "aliases": [],
@@ -147,6 +173,32 @@
         "sourceProject": "AIAcceleratedrug",
         "path": "frontend/src/pages/Dashboard.jsx:28",
         "route": "/ai-admet",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      }
+    ]
+  },
+  {
+    "name": "AI Admet Prediction",
+    "canonicalKey": "admet ai prediction",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/ai-admet"
+    ],
+    "sourceProjects": [
+      "AIAcceleratedrug"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "frontend/src/App.jsx:294",
+        "route": "/ai/ai-admet",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
     ]
@@ -347,6 +399,32 @@
     ]
   },
   {
+    "name": "AI Binding Affinity Prediction",
+    "canonicalKey": "affinity ai binding prediction",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/ai-binding-affinity"
+    ],
+    "sourceProjects": [
+      "AIAcceleratedrug"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "frontend/src/App.jsx:251",
+        "route": "/ai/ai-binding-affinity",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      }
+    ]
+  },
+  {
     "name": "AI Clinical Trial Design",
     "canonicalKey": "ai clinical design trial",
     "aliases": [],
@@ -517,6 +595,32 @@
     ]
   },
   {
+    "name": "AI Drug Interaction Check",
+    "canonicalKey": "ai check drug interaction",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/ai-drug-interaction"
+    ],
+    "sourceProjects": [
+      "AIAcceleratedrug"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "frontend/src/App.jsx:283",
+        "route": "/ai/ai-drug-interaction",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      }
+    ]
+  },
+  {
     "name": "AI Lab Automation Plan",
     "canonicalKey": "ai automation lab plan",
     "aliases": [],
@@ -571,6 +675,32 @@
         "sourceProject": "AIAcceleratedrug",
         "path": "frontend/src/pages/Dashboard.jsx:29",
         "route": "/ai-literature",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      }
+    ]
+  },
+  {
+    "name": "AI Literature Analysis",
+    "canonicalKey": "ai analysis literature",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/ai-literature"
+    ],
+    "sourceProjects": [
+      "AIAcceleratedrug"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "frontend/src/App.jsx:305",
+        "route": "/ai/ai-literature",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
     ]
@@ -755,10 +885,12 @@
     "canonicalKey": "ai design protein",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
-      "/ai-protein-design"
+      "/ai-protein-design",
+      "/ai/ai-protein-design"
     ],
     "sourceProjects": [
       "AIAcceleratedrug"
@@ -767,6 +899,13 @@
       "healthcare-life-sciences/acceleratedrug"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "frontend/src/App.jsx:240",
+        "route": "/ai/ai-protein-design",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
       {
         "kind": "page",
         "sourceProject": "AIAcceleratedrug",
@@ -975,6 +1114,32 @@
     ]
   },
   {
+    "name": "AI Structure Prediction",
+    "canonicalKey": "ai prediction structure",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/ai-structure"
+    ],
+    "sourceProjects": [
+      "AIAcceleratedrug"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "frontend/src/App.jsx:273",
+        "route": "/ai/ai-structure",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      }
+    ]
+  },
+  {
     "name": "AI Tools Extra",
     "canonicalKey": "ai extra",
     "aliases": [],
@@ -1029,6 +1194,32 @@
         "sourceProject": "AIAcceleratedrug",
         "path": "frontend/src/pages/Dashboard.jsx:25",
         "route": "/ai-toxicity",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      }
+    ]
+  },
+  {
+    "name": "AI Toxicity Prediction",
+    "canonicalKey": "ai prediction toxicity",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/ai-toxicity"
+    ],
+    "sourceProjects": [
+      "AIAcceleratedrug"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "frontend/src/App.jsx:262",
+        "route": "/ai/ai-toxicity",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
     ]
@@ -1304,16 +1495,14 @@
     ]
   },
   {
-    "name": "Batch Comparison Page",
+    "name": "Batch Comparison",
     "canonicalKey": "batch comparison",
-    "aliases": [
-      "Batch Comparison"
-    ],
+    "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
-      "/BatchComparisonPage",
       "/batch-comparison"
     ],
     "sourceProjects": [
@@ -1324,12 +1513,38 @@
     ],
     "evidence": [
       {
+        "kind": "ai-page",
+        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
+        "path": "client/src/pages/BatchComparisonPage.jsx:1",
+        "route": "/batch-comparison",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
         "kind": "page",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
         "path": "client/src/App.jsx:123",
         "route": "/batch-comparison",
         "originApp": "healthcare-life-sciences/acceleratedrug"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Batch Comparison Page",
+    "canonicalKey": "batch comparison",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/BatchComparisonPage"
+    ],
+    "sourceProjects": [
+      "AIPrecisionFermentationProcessOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug"
+    ],
+    "evidence": [
       {
         "kind": "page",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
@@ -2242,6 +2457,32 @@
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
         "path": "client/src/pages/ContaminationRiskPage.jsx",
         "route": "/ContaminationRiskPage",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      }
+    ]
+  },
+  {
+    "name": "Contamination Risk Detector",
+    "canonicalKey": "contamination detector risk",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/contamination-risk"
+    ],
+    "sourceProjects": [
+      "AIPrecisionFermentationProcessOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
+        "path": "client/src/pages/ContaminationRiskPage.jsx:1",
+        "route": "/contamination-risk",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
     ]
@@ -3776,6 +4017,60 @@
     ]
   },
   {
+    "name": "Drug Interactions",
+    "canonicalKey": "drug interaction",
+    "aliases": [
+      "Drug Interactions Page"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/DrugInteractionsPage",
+      "/drug-interaction",
+      "/drug-interactions"
+    ],
+    "sourceProjects": [
+      "AIAcceleratedrug",
+      "AIClinicalTrialMatching"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug",
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "backend/src/routes/ai.js:400",
+        "route": "/drug-interaction",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "frontend/src/components/Layout.jsx:27",
+        "route": "/drug-interactions",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "frontend/src/pages/Dashboard.jsx:17",
+        "route": "/drug-interactions",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/DrugInteractionsPage.js",
+        "route": "/DrugInteractionsPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
     "name": "Envelopes",
     "canonicalKey": "envelope",
     "aliases": [],
@@ -5239,15 +5534,11 @@
     ],
     "sourceProjects": [
       "AIAutomatepharmaceutical",
-      "AIMentalHealthCompanion",
       "AIPharmacyOperationsManager",
-      "AIRemotePatientMonitoring",
-      "AIpoweredembryo"
+      "AIRemotePatientMonitoring"
     ],
     "consolidatedFromApps": [
       "healthcare-life-sciences/acceleratedrug",
-      "healthcare-life-sciences/elder-care-companion",
-      "healthcare-life-sciences/industrial-io-t-anomaly-detector",
       "healthcare-life-sciences/patient-triagefor-er",
       "healthcare-life-sciences/pharmacy-operations-manager"
     ],
@@ -5279,27 +5570,6 @@
         "path": "frontend/src/pages/ExtensionsPage.jsx:38",
         "route": "/ext/ctd/generate",
         "originApp": "healthcare-life-sciences/acceleratedrug"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIpoweredembryo",
-        "path": "backend/routes/ai-reports.js:29",
-        "route": "/generate",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIMentalHealthCompanion",
-        "path": "server/routes/affirmations.js:101",
-        "route": "/generate",
-        "originApp": "healthcare-life-sciences/elder-care-companion"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIMentalHealthCompanion",
-        "path": "server/routes/meditation.js:111",
-        "route": "/generate",
-        "originApp": "healthcare-life-sciences/elder-care-companion"
       }
     ]
   },
@@ -5308,10 +5578,12 @@
     "canonicalKey": "generate sop",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
-      "/generate-sop"
+      "/generate-sop",
+      "/sop-generator?tool=generate-sop"
     ],
     "sourceProjects": [
       "AIPrecisionFermentationProcessOptimizer"
@@ -5320,6 +5592,13 @@
       "healthcare-life-sciences/acceleratedrug"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
+        "path": "client/src/pages/SOPGeneratorPage.jsx:69",
+        "route": "/sop-generator?tool=generate-sop",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
@@ -7045,9 +7324,11 @@
     "canonicalKey": "optimization process",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/optimization",
       "/process-optimization"
     ],
     "sourceProjects": [
@@ -7057,6 +7338,13 @@
       "healthcare-life-sciences/acceleratedrug"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
+        "path": "client/src/pages/OptimizationPage.jsx:1",
+        "route": "/optimization",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
@@ -7416,16 +7704,15 @@
   {
     "name": "Quality Anomaly Detect",
     "canonicalKey": "anomaly detect quality",
-    "aliases": [
-      "Quality Anomaly Detect Page"
-    ],
+    "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
-      "/QualityAnomalyDetectPage",
-      "/quality-anomaly-detect"
+      "/quality-anomaly-detect",
+      "/quality-anomaly-detect?tool=quality-anomaly-detect"
     ],
     "sourceProjects": [
       "AIPrecisionFermentationProcessOptimizer"
@@ -7434,6 +7721,13 @@
       "healthcare-life-sciences/acceleratedrug"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
+        "path": "client/src/pages/QualityAnomalyDetectPage.jsx:74",
+        "route": "/quality-anomaly-detect?tool=quality-anomaly-detect",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
@@ -7447,7 +7741,26 @@
         "path": "client/src/App.jsx:125",
         "route": "/quality-anomaly-detect",
         "originApp": "healthcare-life-sciences/acceleratedrug"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Quality Anomaly Detect Page",
+    "canonicalKey": "anomaly detect quality",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/QualityAnomalyDetectPage"
+    ],
+    "sourceProjects": [
+      "AIPrecisionFermentationProcessOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug"
+    ],
+    "evidence": [
       {
         "kind": "page",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
@@ -7603,6 +7916,32 @@
         "sourceProject": "AIAutomatepharmaceutical",
         "path": "frontend/src/pages/RegulatoryCalendar.jsx",
         "route": "/RegulatoryCalendar",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      }
+    ]
+  },
+  {
+    "name": "Regulatory Pathway",
+    "canonicalKey": "pathway regulatory",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/regulatory-pathway"
+    ],
+    "sourceProjects": [
+      "AIAcceleratedrug"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "backend/src/routes/ai.js:1185",
+        "route": "/regulatory-pathway",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
     ]
@@ -8029,16 +8368,15 @@
   {
     "name": "Strain Performance Predict",
     "canonicalKey": "performance predict strain",
-    "aliases": [
-      "Strain Performance Predict Page"
-    ],
+    "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
-      "/StrainPerformancePredictPage",
-      "/strain-performance-predict"
+      "/strain-performance-predict",
+      "/strain-performance-predict?tool=strain-performance-predict"
     ],
     "sourceProjects": [
       "AIPrecisionFermentationProcessOptimizer"
@@ -8047,6 +8385,13 @@
       "healthcare-life-sciences/acceleratedrug"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
+        "path": "client/src/pages/StrainPerformancePredictPage.jsx:59",
+        "route": "/strain-performance-predict?tool=strain-performance-predict",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
@@ -8060,7 +8405,26 @@
         "path": "client/src/App.jsx:124",
         "route": "/strain-performance-predict",
         "originApp": "healthcare-life-sciences/acceleratedrug"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Strain Performance Predict Page",
+    "canonicalKey": "performance predict strain",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/StrainPerformancePredictPage"
+    ],
+    "sourceProjects": [
+      "AIPrecisionFermentationProcessOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug"
+    ],
+    "evidence": [
       {
         "kind": "page",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
@@ -8762,9 +9126,12 @@
     "canonicalKey": "predictor yield",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "navigation"
     ],
-    "routes": [],
+    "routes": [
+      "/yield-prediction"
+    ],
     "sourceProjects": [
       "AIPrecisionFermentationProcessOptimizer"
     ],
@@ -8772,6 +9139,13 @@
       "healthcare-life-sciences/acceleratedrug"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
+        "path": "client/src/pages/YieldPredictionPage.jsx:1",
+        "route": "/yield-prediction",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
       {
         "kind": "navigation",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
