@@ -20,15 +20,100 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/ExtensionsPage.js:17",
+        "path": "frontend/src/pages/ExtensionsPage.jsx:17",
         "route": "/ext/document-versions/1",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/ExtensionsPage.js:24",
+        "path": "frontend/src/pages/ExtensionsPage.jsx:24",
         "route": "/ext/document-comments/1",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      }
+    ]
+  },
+  {
+    "name": "Admet",
+    "canonicalKey": "admet",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/admet"
+    ],
+    "sourceProjects": [
+      "AIAcceleratedrug"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "frontend/src/components/Layout.jsx:28",
+        "route": "/admet",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "frontend/src/pages/Dashboard.jsx:18",
+        "route": "/admet",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      }
+    ]
+  },
+  {
+    "name": "Admet Prediction",
+    "canonicalKey": "admet prediction",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/admet-prediction"
+    ],
+    "sourceProjects": [
+      "AIAcceleratedrug"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "backend/src/routes/ai.js:501",
+        "route": "/admet-prediction",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      }
+    ]
+  },
+  {
+    "name": "Adverse Event Detect",
+    "canonicalKey": "adverse detect event",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/adverse-event-detect"
+    ],
+    "sourceProjects": [
+      "AIAutomatepharmaceutical"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatepharmaceutical",
+        "path": "backend/src/routes/ai.js:562",
+        "route": "/adverse-event-detect",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
     ]
@@ -84,24 +169,15 @@
       "AIDrugInteractionChecker",
       "AINutritionDietitianAssistant",
       "AIPatientTriageforER",
-      "AIPrecisionFermentationProcessOptimizer",
-      "ihss_scheduling"
+      "AIPrecisionFermentationProcessOptimizer"
     ],
     "consolidatedFromApps": [
       "healthcare-life-sciences/acceleratedrug",
       "healthcare-life-sciences/ambulance-ems-dispatch",
-      "healthcare-life-sciences/coaching-wellness-merged",
       "healthcare-life-sciences/elder-care-companion",
       "healthcare-life-sciences/patient-triagefor-er"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIPatientTriageforER",
-        "path": "backend/routes/crud.js:68",
-        "route": "/ai-analyze",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
       {
         "kind": "api",
         "sourceProject": "AIDrugInteractionChecker",
@@ -122,6 +198,13 @@
         "path": "backend/src/routes/pharmacogenomics.js:73",
         "route": "/ai-analyze",
         "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPatientTriageforER",
+        "path": "backend/routes/crud.js:68",
+        "route": "/ai-analyze",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
       },
       {
         "kind": "api",
@@ -209,29 +292,22 @@
       },
       {
         "kind": "api",
-        "sourceProject": "ihss_scheduling",
-        "path": "backend/routes/coverage.js:7",
-        "route": "/ai-analyze",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AINutritionDietitianAssistant",
-        "path": "server/index.js:231",
+        "path": "server/index.js:244",
         "route": "/api/calories/ai-analyze",
         "originApp": "healthcare-life-sciences/elder-care-companion"
       },
       {
         "kind": "api",
         "sourceProject": "AINutritionDietitianAssistant",
-        "path": "server/index.js:375",
+        "path": "server/index.js:389",
         "route": "/api/nutrients/ai-analyze",
         "originApp": "healthcare-life-sciences/elder-care-companion"
       },
       {
         "kind": "api",
         "sourceProject": "AINutritionDietitianAssistant",
-        "path": "server/index.js:482",
+        "path": "server/index.js:496",
         "route": "/api/bmi/ai-analyze",
         "originApp": "healthcare-life-sciences/elder-care-companion"
       }
@@ -356,7 +432,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "server/routes/ai.js:290",
+        "path": "server/routes/ai.js:255",
         "route": "/batches/:id/ai-contamination-check",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -918,7 +994,7 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/AIToolsExtra.js",
+        "path": "frontend/src/pages/AIToolsExtra.jsx",
         "route": "/AIToolsExtra",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -1069,7 +1145,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "server/routes/ai.js:336",
+        "path": "server/routes/ai.js:301",
         "route": "/batches/:id/ai-yield-predict",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -1096,100 +1172,15 @@
       {
         "kind": "navigation",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/components/Navbar.js:17",
+        "path": "frontend/src/components/Navbar.jsx:17",
         "route": "",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/ApiExport.js",
+        "path": "frontend/src/pages/ApiExport.jsx",
         "route": "/ApiExport",
-        "originApp": "healthcare-life-sciences/acceleratedrug"
-      }
-    ]
-  },
-  {
-    "name": "Admet",
-    "canonicalKey": "admet",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/admet"
-    ],
-    "sourceProjects": [
-      "AIAcceleratedrug"
-    ],
-    "consolidatedFromApps": [
-      "healthcare-life-sciences/acceleratedrug"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIAcceleratedrug",
-        "path": "frontend/src/components/Layout.jsx:28",
-        "route": "/admet",
-        "originApp": "healthcare-life-sciences/acceleratedrug"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAcceleratedrug",
-        "path": "frontend/src/pages/Dashboard.jsx:18",
-        "route": "/admet",
-        "originApp": "healthcare-life-sciences/acceleratedrug"
-      }
-    ]
-  },
-  {
-    "name": "Admet Prediction",
-    "canonicalKey": "admet prediction",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/admet-prediction"
-    ],
-    "sourceProjects": [
-      "AIAcceleratedrug"
-    ],
-    "consolidatedFromApps": [
-      "healthcare-life-sciences/acceleratedrug"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIAcceleratedrug",
-        "path": "backend/src/routes/ai.js:501",
-        "route": "/admet-prediction",
-        "originApp": "healthcare-life-sciences/acceleratedrug"
-      }
-    ]
-  },
-  {
-    "name": "Adverse Event Detect",
-    "canonicalKey": "adverse detect event",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/adverse-event-detect"
-    ],
-    "sourceProjects": [
-      "AIAutomatepharmaceutical"
-    ],
-    "consolidatedFromApps": [
-      "healthcare-life-sciences/acceleratedrug"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatepharmaceutical",
-        "path": "backend/src/routes/ai.js:562",
-        "route": "/adverse-event-detect",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
     ]
@@ -1249,14 +1240,14 @@
       {
         "kind": "navigation",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/components/Navbar.js:11",
+        "path": "frontend/src/components/Navbar.jsx:11",
         "route": "",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/BatchAnalysis.js",
+        "path": "frontend/src/pages/BatchAnalysis.jsx",
         "route": "/BatchAnalysis",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -1426,20 +1417,6 @@
     ],
     "evidence": [
       {
-        "kind": "api",
-        "sourceProject": "industrial-capabilities-in-space",
-        "path": "backend/routes/orbital-platforms.js:164",
-        "route": "/:id/batches",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "industrial-capabilities-in-space",
-        "path": "backend/routes/orbital-platforms.js:176",
-        "route": "/:id/batches",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
         "kind": "navigation",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
         "path": "client/src/components/Sidebar.jsx:40",
@@ -1466,6 +1443,20 @@
         "path": "client/src/pages/BatchesPage.jsx",
         "route": "/BatchesPage",
         "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "industrial-capabilities-in-space",
+        "path": "backend/routes/orbital-platforms.js:164",
+        "route": "/:id/batches",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "industrial-capabilities-in-space",
+        "path": "backend/routes/orbital-platforms.js:176",
+        "route": "/:id/batches",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
       }
     ]
   },
@@ -1583,14 +1574,14 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/App.js:77",
+        "path": "frontend/src/App.jsx:77",
         "route": "/capa-readiness-board",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/CapaReadinessBoard.js",
+        "path": "frontend/src/pages/CapaReadinessBoard.jsx",
         "route": "/CapaReadinessBoard",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -1625,7 +1616,7 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/App.js:63",
+        "path": "frontend/src/App.jsx:63",
         "route": "/feature/:category",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -1829,7 +1820,7 @@
       {
         "kind": "navigation",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/components/Navbar.js:19",
+        "path": "frontend/src/components/Navbar.jsx:19",
         "route": "",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -1921,7 +1912,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "server/routes/ai.js:443",
+        "path": "server/routes/ai.js:408",
         "route": "/compare-batches",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -1950,6 +1941,104 @@
         "path": "backend/src/routes/ai.js:1143",
         "route": "/competitive-intelligence",
         "originApp": "healthcare-life-sciences/acceleratedrug"
+      }
+    ]
+  },
+  {
+    "name": "Compliance",
+    "canonicalKey": "compliance",
+    "aliases": [
+      "Compliance Page"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/Compliance",
+      "/CompliancePage",
+      "/compliance"
+    ],
+    "sourceProjects": [
+      "AIHealthcareBillingOptimizer",
+      "AIPharmacyOperationsManager",
+      "AIPrecisionFermentationProcessOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug",
+      "healthcare-life-sciences/hipaa-training-compliance-auditor",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:111",
+        "route": "/compliance",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Compliance.js",
+        "route": "/Compliance",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Dashboard.js:58",
+        "route": "/compliance",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
+        "path": "client/src/components/Sidebar.jsx:63",
+        "route": "",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
+        "path": "client/src/App.jsx:114",
+        "route": "/compliance",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
+        "path": "client/src/pages/Dashboard.jsx:18",
+        "route": "/compliance",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
+        "path": "client/src/pages/CompliancePage.jsx",
+        "route": "/CompliancePage",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHealthcareBillingOptimizer",
+        "path": "frontend/src/App.js:111",
+        "route": "/compliance",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHealthcareBillingOptimizer",
+        "path": "frontend/src/components/Sidebar.js:21",
+        "route": "/compliance",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHealthcareBillingOptimizer",
+        "path": "frontend/src/pages/CompliancePage.js",
+        "route": "/CompliancePage",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
       }
     ]
   },
@@ -2009,14 +2098,14 @@
       {
         "kind": "navigation",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/components/Navbar.js:12",
+        "path": "frontend/src/components/Navbar.jsx:12",
         "route": "",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/ComplianceTrends.js",
+        "path": "frontend/src/pages/ComplianceTrends.jsx",
         "route": "/ComplianceTrends",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -2182,21 +2271,21 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/App.js:73",
+        "path": "frontend/src/App.jsx:73",
         "route": "/ai-tools/cost",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/components/Navbar.js:18",
+        "path": "frontend/src/components/Navbar.jsx:18",
         "route": "/ai-tools/cost",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/Dashboard.js:84",
+        "path": "frontend/src/pages/Dashboard.jsx:84",
         "route": "/ai-tools/cost",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
@@ -2277,14 +2366,14 @@
       {
         "kind": "navigation",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/components/Navbar.js:18",
+        "path": "frontend/src/components/Navbar.jsx:18",
         "route": "",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/CostAnalytics.js",
+        "path": "frontend/src/pages/CostAnalytics.jsx",
         "route": "/CostAnalytics",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -2310,21 +2399,21 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/App.js:71",
+        "path": "frontend/src/App.jsx:71",
         "route": "/ai-tools/cross-doc",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/components/Navbar.js:16",
+        "path": "frontend/src/components/Navbar.jsx:16",
         "route": "/ai-tools/cross-doc",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/Dashboard.js:82",
+        "path": "frontend/src/pages/Dashboard.jsx:82",
         "route": "/ai-tools/cross-doc",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -2351,14 +2440,14 @@
       {
         "kind": "navigation",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/components/Navbar.js:16",
+        "path": "frontend/src/components/Navbar.jsx:16",
         "route": "",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/CrossDocAnalysis.js",
+        "path": "frontend/src/pages/CrossDocAnalysis.jsx",
         "route": "/CrossDocAnalysis",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -2436,7 +2525,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "server/routes/ai.js:219",
+        "path": "server/routes/ai.js:184",
         "route": "/data-interpreter",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -2466,13 +2555,6 @@
       "healthcare-life-sciences/hipaa-training-compliance-auditor"
     ],
     "evidence": [
-      {
-        "kind": "model",
-        "sourceProject": "AIResearchLiteratureAgent",
-        "path": "backend/models/db.js",
-        "route": "",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
       {
         "kind": "api",
         "sourceProject": "AIAcceleratedrug",
@@ -2693,14 +2775,14 @@
       {
         "kind": "api",
         "sourceProject": "AIAcceleratedrug",
-        "path": "backend/src/routes/auth.js:28",
+        "path": "backend/src/routes/auth.js:30",
         "route": "db",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "api",
         "sourceProject": "AIAcceleratedrug",
-        "path": "backend/src/routes/auth.js:67",
+        "path": "backend/src/routes/auth.js:68",
         "route": "db",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
@@ -2939,6 +3021,34 @@
         "kind": "api",
         "sourceProject": "AIAcceleratedrug",
         "path": "backend/src/routes/drugInteractions.js:85",
+        "route": "db",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "backend/src/routes/evidenceWorkflow.js:13",
+        "route": "db",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "backend/src/routes/evidenceWorkflow.js:16",
+        "route": "db",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "backend/src/routes/evidenceWorkflow.js:5",
+        "route": "db",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "backend/src/routes/evidenceWorkflow.js:7",
         "route": "db",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
@@ -3221,6 +3331,13 @@
         "path": "backend/src/routes/toxicity.js:74",
         "route": "db",
         "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "model",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/models/db.js",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
       },
       {
         "kind": "api",
@@ -3694,7 +3811,7 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/ExtensionsPage.js:31",
+        "path": "frontend/src/pages/ExtensionsPage.jsx:31",
         "route": "/ext/esign/envelopes",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -3794,24 +3911,42 @@
   {
     "name": "Export",
     "canonicalKey": "export",
-    "aliases": [],
+    "aliases": [
+      "Exports"
+    ],
     "kinds": [
       "api",
       "page"
     ],
     "routes": [
+      "/:id/export",
       "/ai-tools/export",
-      "/export"
+      "/export",
+      "/exports"
     ],
     "sourceProjects": [
       "AIAutomatepharmaceutical",
-      "AIHealthcareCompanion"
+      "AIHealthcareCompanion",
+      "AIPathologySlideAnalyzer",
+      "AIPatientTriageforER",
+      "AIResearchLiteratureAgent",
+      "AIhomecompanion"
     ],
     "consolidatedFromApps": [
       "healthcare-life-sciences/acceleratedrug",
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
+      "healthcare-life-sciences/ambulance-ems-dispatch",
+      "healthcare-life-sciences/coaching-wellness-merged",
       "healthcare-life-sciences/patient-triagefor-er"
     ],
     "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/governance/router.js:64",
+        "route": "/:id/export",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
       {
         "kind": "api",
         "sourceProject": "AIHealthcareCompanion",
@@ -3820,37 +3955,58 @@
         "originApp": "healthcare-life-sciences/patient-triagefor-er"
       },
       {
+        "kind": "api",
+        "sourceProject": "AIPatientTriageforER",
+        "path": "backend/governance/router.js:64",
+        "route": "/:id/export",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/App.js:72",
+        "path": "frontend/src/App.jsx:72",
         "route": "/ai-tools/export",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/components/Navbar.js:17",
+        "path": "frontend/src/components/Navbar.jsx:17",
         "route": "/ai-tools/export",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/Dashboard.js:83",
+        "path": "frontend/src/pages/Dashboard.jsx:83",
         "route": "/ai-tools/export",
         "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/governance/router.js:82",
+        "route": "/:id/export",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIhomecompanion",
+        "path": "backend/governance/routes.js:94",
+        "route": "/exports",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
       }
     ]
   },
   {
-    "name": "Extensions Page",
-    "canonicalKey": "extensions",
+    "name": "External Capabilities",
+    "canonicalKey": "capability external",
     "aliases": [],
     "kinds": [
-      "page"
+      "api"
     ],
     "routes": [
-      "/ExtensionsPage"
+      "/external-capabilities"
     ],
     "sourceProjects": [
       "AIAutomatepharmaceutical"
@@ -3860,10 +4016,10 @@
     ],
     "evidence": [
       {
-        "kind": "page",
+        "kind": "api",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/ExtensionsPage.js",
-        "route": "/ExtensionsPage",
+        "path": "backend/src/routes/evidenceCases.js:2",
+        "route": "/external-capabilities",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
     ]
@@ -3888,14 +4044,14 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/App.js:74",
+        "path": "frontend/src/App.jsx:74",
         "route": "/ai-tools/extra",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/components/Navbar.js:19",
+        "path": "frontend/src/components/Navbar.jsx:19",
         "route": "/ai-tools/extra",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -3947,7 +4103,7 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/GapAiAdverseEventDetection.js",
+        "path": "frontend/src/pages/GapAiAdverseEventDetection.jsx",
         "route": "/GapAiAdverseEventDetection",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -4025,7 +4181,7 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/GapAiClinicalTrialEndpointExtraction.js",
+        "path": "frontend/src/pages/GapAiClinicalTrialEndpointExtraction.jsx",
         "route": "/GapAiClinicalTrialEndpointExtraction",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -4077,7 +4233,7 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/GapAiDocumentClassificationIndVs.js",
+        "path": "frontend/src/pages/GapAiDocumentClassificationIndVs.jsx",
         "route": "/GapAiDocumentClassificationIndVs",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -4129,7 +4285,7 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/GapAiManufacturingDeviationFlagging.js",
+        "path": "frontend/src/pages/GapAiManufacturingDeviationFlagging.jsx",
         "route": "/GapAiManufacturingDeviationFlagging",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -4207,7 +4363,7 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/GapClinicalTrialDataExtractionOcr.js",
+        "path": "frontend/src/pages/GapClinicalTrialDataExtractionOcr.jsx",
         "route": "/GapClinicalTrialDataExtractionOcr",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -4233,7 +4389,7 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/GapCollaborationCommentingThreads.js",
+        "path": "frontend/src/pages/GapCollaborationCommentingThreads.jsx",
         "route": "/GapCollaborationCommentingThreads",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -4241,7 +4397,7 @@
   },
   {
     "name": "Gap Costs Without Cost Page",
-    "canonicalKey": "cost costs gap without",
+    "canonicalKey": "cost gap without",
     "aliases": [
       "Gap Costs Without Cost"
     ],
@@ -4295,7 +4451,7 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/GapCtdAutoGenerationStructuringDocuments.js",
+        "path": "frontend/src/pages/GapCtdAutoGenerationStructuringDocuments.jsx",
         "route": "/GapCtdAutoGenerationStructuringDocuments",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -4321,7 +4477,7 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/GapDocumentVersionControlBranching.js",
+        "path": "frontend/src/pages/GapDocumentVersionControlBranching.jsx",
         "route": "/GapDocumentVersionControlBranching",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -4347,7 +4503,7 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/GapESignatureWorkflow.js",
+        "path": "frontend/src/pages/GapESignatureWorkflow.jsx",
         "route": "/GapESignatureWorkflow",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -4373,7 +4529,7 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/GapFdaEstarEmaGatewayRegulatory.js",
+        "path": "frontend/src/pages/GapFdaEstarEmaGatewayRegulatory.jsx",
         "route": "/GapFdaEstarEmaGatewayRegulatory",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -4433,7 +4589,7 @@
   },
   {
     "name": "Gap Limited Notifications Layer Page",
-    "canonicalKey": "gap layer limited notifications",
+    "canonicalKey": "gap layer limited notification",
     "aliases": [
       "Gap Limited Notifications Layer"
     ],
@@ -4523,7 +4679,7 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/GapManufacturingDeviationDetectionScrapingBatch.js",
+        "path": "frontend/src/pages/GapManufacturingDeviationDetectionScrapingBatch.jsx",
         "route": "/GapManufacturingDeviationDetectionScrapingBatch",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -4601,7 +4757,7 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/GapNlpRegulatoryComplianceAutoFlagging.js",
+        "path": "frontend/src/pages/GapNlpRegulatoryComplianceAutoFlagging.jsx",
         "route": "/GapNlpRegulatoryComplianceAutoFlagging",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -4680,10 +4836,10 @@
     ]
   },
   {
-    "name": "Gap No Mobile App For Operators",
+    "name": "Gap No Mobile App For Operators Page",
     "canonicalKey": "for gap mobile no operator",
     "aliases": [
-      "Gap No Mobile App For Operators Page"
+      "Gap No Mobile App For Operators"
     ],
     "kinds": [
       "page"
@@ -4753,7 +4909,7 @@
   },
   {
     "name": "Gap No Webhooks For Alert Delivery Page",
-    "canonicalKey": "alert delivery for gap no webhooks",
+    "canonicalKey": "alert delivery for gap no webhook",
     "aliases": [
       "Gap No Webhooks For Alert Delivery"
     ],
@@ -4789,7 +4945,7 @@
   },
   {
     "name": "Gap Notifications Webhooks Subsystem",
-    "canonicalKey": "gap notifications subsystem webhooks",
+    "canonicalKey": "gap notification subsystem webhook",
     "aliases": [],
     "kinds": [
       "page"
@@ -4947,7 +5103,7 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/GapRegulatorySubmissionPreparationCtdFormat.js",
+        "path": "frontend/src/pages/GapRegulatorySubmissionPreparationCtdFormat.jsx",
         "route": "/GapRegulatorySubmissionPreparationCtdFormat",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -4981,7 +5137,7 @@
   },
   {
     "name": "Gap Strains Without Strain Page",
-    "canonicalKey": "gap strain strains without",
+    "canonicalKey": "gap strain without",
     "aliases": [
       "Gap Strains Without Strain"
     ],
@@ -5061,7 +5217,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "server/routes/ai.js:126",
+        "path": "server/routes/ai.js:91",
         "route": "/general-analysis",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -5098,13 +5254,6 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/notifications.js:65",
-        "route": "/generate",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIRemotePatientMonitoring",
         "path": "backend/src/routes/ai.js:145",
         "route": "/patient-reports/:patientId/generate",
@@ -5112,10 +5261,10 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIpoweredembryo",
-        "path": "backend/routes/ai-reports.js:29",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/notifications.js:65",
         "route": "/generate",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
@@ -5127,9 +5276,16 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/ExtensionsPage.js:38",
+        "path": "frontend/src/pages/ExtensionsPage.jsx:38",
         "route": "/ext/ctd/generate",
         "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/ai-reports.js:29",
+        "route": "/generate",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
       },
       {
         "kind": "api",
@@ -5167,7 +5323,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "server/routes/ai.js:391",
+        "path": "server/routes/ai.js:356",
         "route": "/generate-sop",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -5191,7 +5347,7 @@
       {
         "kind": "navigation",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/components/Navbar.js:20",
+        "path": "frontend/src/components/Navbar.jsx:20",
         "route": "",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -5245,11 +5401,12 @@
       "AIPhysicalTherapyMovementAnalyzer",
       "AIPrecisionFermentationProcessOptimizer",
       "AIPredictdisease",
+      "AIRadiologyReportGenerator",
       "AIRemotePatientMonitoring",
       "AIResearchLiteratureAgent",
       "AIVeterinaryClinicManager",
-      "AIhomecompanion",
       "AIpoweredembryo",
+      "alzheimers-research-care-operations-hub",
       "ihss_scheduling",
       "industrial-capabilities-in-space",
       "tetrascience"
@@ -5268,55 +5425,6 @@
       "healthcare-life-sciences/physical-therapy-movement-analyzer"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIBloodBankDonationCenter",
-        "path": "backend/server.js:52",
-        "route": "/api/health",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIHospitalBedResourceOptimizer",
-        "path": "backend/server.js:95",
-        "route": "/api/health",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/server.js:49",
-        "route": "/api/health",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIHealthcareCompanion",
-        "path": "server/index.js:106",
-        "route": "/api/health",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPatientTriageforER",
-        "path": "backend/server.js:187",
-        "route": "/api/health",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPredictdisease",
-        "path": "backend/src/server.js:28",
-        "route": "/api/health",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIRemotePatientMonitoring",
-        "path": "backend/src/server.js:64",
-        "route": "/api/health",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
       {
         "kind": "api",
         "sourceProject": "AIAmbulanceEMSDispatch",
@@ -5411,7 +5519,7 @@
       {
         "kind": "api",
         "sourceProject": "AIDrugInteractionChecker",
-        "path": "backend/src/server.js:57",
+        "path": "backend/src/server.js:66",
         "route": "/api/health",
         "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
@@ -5425,163 +5533,65 @@
       {
         "kind": "api",
         "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/server.js:708",
+        "path": "backend/src/server.js:728",
         "route": "/api/health",
         "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
-        "kind": "page",
-        "sourceProject": "AIIndustrialIoTAnomalyDetector",
-        "path": "frontend/src/App.jsx:84",
-        "route": "/health",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIIndustrialIoTAnomalyDetector",
-        "path": "frontend/src/pages/Dashboard.jsx:35",
-        "route": "/health",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
         "kind": "api",
-        "sourceProject": "AIpoweredembryo",
-        "path": "backend/server.js:36",
+        "sourceProject": "AIRadiologyReportGenerator",
+        "path": "server/index.js:19",
         "route": "/api/health",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
-        "sourceProject": "industrial-capabilities-in-space",
-        "path": "backend/server.js:48",
+        "sourceProject": "AIHealthcareCompanion",
+        "path": "server/index.js:67",
         "route": "/api/health",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
       },
       {
         "kind": "api",
-        "sourceProject": "tetrascience",
-        "path": "backend/src/index.ts:32",
+        "sourceProject": "AIPatientTriageforER",
+        "path": "backend/server.js:192",
         "route": "/api/health",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
       },
       {
         "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/index.js:79",
+        "sourceProject": "AIPredictdisease",
+        "path": "backend/src/server.js:34",
         "route": "/api/health",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
       },
       {
         "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/customViews.js:535",
-        "route": "/health",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_no_ai_digital_twin_synthetic_control_arm.js:132",
-        "route": "/health",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_no_ai_emr_to_protocol_matcher_only_manual_screenin.js:132",
-        "route": "/health",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_no_ai_investigator_brochure_summarization.js:132",
-        "route": "/health",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_no_ai_patient_friendly_consent_form_generator.js:132",
-        "route": "/health",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_no_direct_edc_ctms_ehr_api_client_medidata_veeva_e.js:132",
-        "route": "/health",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_no_e_consent_module_with_audit_trail.js:132",
-        "route": "/health",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_no_patient_engagement_portal_with_rewards.js:132",
-        "route": "/health",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_no_randomization_trial_supply_management_rtsm.js:132",
-        "route": "/health",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_no_remote_monitoring_televisit_module.js:132",
-        "route": "/health",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_notification_routes_exist_but_no_sms_email_deliver.js:132",
-        "route": "/health",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/outcomePredictor.js:97",
-        "route": "/health",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/regulatoryAgent.js:97",
-        "route": "/health",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/siteNetworkOptimizer.js:97",
-        "route": "/health",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/trialPlatformIntegrations.js:97",
-        "route": "/health",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIResearchLiteratureAgent",
-        "path": "backend/server.js:47",
+        "sourceProject": "AIRemotePatientMonitoring",
+        "path": "backend/src/server.js:66",
         "route": "/api/health",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "backend/server.js:16",
+        "route": "/api/health",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/server.js:91",
+        "route": "/api/health",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/server.js:50",
+        "route": "/api/health",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
@@ -5705,7 +5715,7 @@
       {
         "kind": "api",
         "sourceProject": "AIAcceleratedrug",
-        "path": "backend/src/server.js:107",
+        "path": "backend/src/server.js:111",
         "route": "/api/health",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
@@ -5810,16 +5820,177 @@
       {
         "kind": "api",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "backend/src/server.js:64",
+        "path": "backend/src/server.js:47",
         "route": "/api/health",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "server/index.js:85",
+        "path": "server/index.js:92",
         "route": "/api/health",
         "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/index.js:81",
+        "route": "/api/health",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/customViews.js:535",
+        "route": "/health",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_no_ai_digital_twin_synthetic_control_arm.js:132",
+        "route": "/health",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_no_ai_emr_to_protocol_matcher_only_manual_screenin.js:132",
+        "route": "/health",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_no_ai_investigator_brochure_summarization.js:132",
+        "route": "/health",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_no_ai_patient_friendly_consent_form_generator.js:132",
+        "route": "/health",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_no_direct_edc_ctms_ehr_api_client_medidata_veeva_e.js:132",
+        "route": "/health",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_no_e_consent_module_with_audit_trail.js:132",
+        "route": "/health",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_no_patient_engagement_portal_with_rewards.js:132",
+        "route": "/health",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_no_randomization_trial_supply_management_rtsm.js:132",
+        "route": "/health",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_no_remote_monitoring_televisit_module.js:132",
+        "route": "/health",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_notification_routes_exist_but_no_sms_email_deliver.js:132",
+        "route": "/health",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/outcomePredictor.js:97",
+        "route": "/health",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/regulatoryAgent.js:97",
+        "route": "/health",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/siteNetworkOptimizer.js:97",
+        "route": "/health",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/trialPlatformIntegrations.js:97",
+        "route": "/health",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/server.js:19",
+        "route": "/api/health",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "alzheimers-research-care-operations-hub",
+        "path": "src/app.js:38",
+        "route": "/api/health",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIIndustrialIoTAnomalyDetector",
+        "path": "frontend/src/App.jsx:84",
+        "route": "/health",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIIndustrialIoTAnomalyDetector",
+        "path": "frontend/src/pages/Dashboard.jsx:35",
+        "route": "/health",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/server.js:2",
+        "route": "/api/health",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "industrial-capabilities-in-space",
+        "path": "backend/server.js:31",
+        "route": "/api/health",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "tetrascience",
+        "path": "backend/src/index.ts:20",
+        "route": "/api/health",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
       },
       {
         "kind": "api",
@@ -5936,65 +6107,37 @@
       {
         "kind": "api",
         "sourceProject": "AIAgingInPlaceHomeModificationAssessor",
-        "path": "backend/server.js:41",
-        "route": "/api/health",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIhomecompanion",
-        "path": "backend/server.js:78",
+        "path": "backend/server.js:42",
         "route": "/api/health",
         "originApp": "healthcare-life-sciences/coaching-wellness-merged"
       },
       {
         "kind": "api",
         "sourceProject": "ihss_scheduling",
-        "path": "backend/server.js:39",
+        "path": "backend/app.js:20",
         "route": "/api/health",
         "originApp": "healthcare-life-sciences/coaching-wellness-merged"
       },
       {
         "kind": "api",
         "sourceProject": "AIElderCareCompanion",
-        "path": "backend/server.js:76",
+        "path": "backend/server.js:84",
         "route": "/api/health",
         "originApp": "healthcare-life-sciences/elder-care-companion"
       },
       {
         "kind": "api",
         "sourceProject": "AIMentalHealthCompanion",
-        "path": "server/index.js:123",
+        "path": "server/index.js:128",
         "route": "/api/health",
         "originApp": "healthcare-life-sciences/elder-care-companion"
       },
       {
         "kind": "api",
         "sourceProject": "AINutritionDietitianAssistant",
-        "path": "server/index.js:1041",
+        "path": "server/index.js:1055",
         "route": "/api/health",
         "originApp": "healthcare-life-sciences/elder-care-companion"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIOptometryAssistant",
-        "path": "backend/src/server.js:34",
-        "route": "/api/health",
-        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
-        "path": "backend/server.js:77",
-        "route": "/api/health",
-        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVeterinaryClinicManager",
-        "path": "server/index.js:58",
-        "route": "/api/health",
-        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       },
       {
         "kind": "api",
@@ -6083,14 +6226,14 @@
       {
         "kind": "api",
         "sourceProject": "AIDentalLabCaseManager",
-        "path": "backend/routes/turnaroundPredict.js:81",
+        "path": "backend/routes/turnaroundPredict.js:82",
         "route": "/turnaround-predict/health",
         "originApp": "healthcare-life-sciences/dental-practice-manager"
       },
       {
         "kind": "api",
         "sourceProject": "AIDentalLabCaseManager",
-        "path": "backend/server.js:176",
+        "path": "backend/server.js:181",
         "route": "/api/health",
         "originApp": "healthcare-life-sciences/dental-practice-manager"
       },
@@ -6167,7 +6310,7 @@
       {
         "kind": "api",
         "sourceProject": "AIDentalPracticeManager",
-        "path": "backend/routes/noshowPredict.js:94",
+        "path": "backend/routes/noshowPredict.js:102",
         "route": "/noshow-predict/health",
         "originApp": "healthcare-life-sciences/dental-practice-manager"
       },
@@ -6195,56 +6338,51 @@
       {
         "kind": "api",
         "sourceProject": "AIDentalPracticeManager",
-        "path": "backend/server.js:63",
+        "path": "backend/server.js:69",
         "route": "/api/health",
         "originApp": "healthcare-life-sciences/dental-practice-manager"
       },
       {
         "kind": "api",
+        "sourceProject": "AIOptometryAssistant",
+        "path": "backend/src/server.js:34",
+        "route": "/api/health",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "backend/server.js:76",
+        "route": "/api/health",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVeterinaryClinicManager",
+        "path": "server/index.js:39",
+        "route": "/api/health",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIHIPAATrainingComplianceAuditor",
-        "path": "backend/src/server.js:142",
+        "path": "backend/src/server.js:93",
         "route": "/api/health",
         "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
       },
       {
         "kind": "api",
         "sourceProject": "AIHealthcareBillingOptimizer",
-        "path": "backend/src/index.js:92",
+        "path": "backend/src/index.js:83",
         "route": "/api/health",
         "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
       },
       {
         "kind": "api",
         "sourceProject": "AIMedicalDeviceComplianceManager",
-        "path": "server/index.js:68",
+        "path": "server/index.js:110",
         "route": "/api/health",
         "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
-      }
-    ]
-  },
-  {
-    "name": "Jobs",
-    "canonicalKey": "jobs",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/regulatory-gateway/jobs"
-    ],
-    "sourceProjects": [
-      "AIAutomatepharmaceutical"
-    ],
-    "consolidatedFromApps": [
-      "healthcare-life-sciences/acceleratedrug"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatepharmaceutical",
-        "path": "backend/src/routes/extensions.js:269",
-        "route": "/regulatory-gateway/jobs",
-        "originApp": "healthcare-life-sciences/acceleratedrug"
       }
     ]
   },
@@ -6405,7 +6543,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "server/routes/ai.js:189",
+        "path": "server/routes/ai.js:154",
         "route": "/literature-search",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -6433,6 +6571,32 @@
         "sourceProject": "AIAutomatepharmaceutical",
         "path": "backend/src/routes/ai.js:590",
         "route": "/manufacturing-deviation",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      }
+    ]
+  },
+  {
+    "name": "Molecules",
+    "canonicalKey": "molecule",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/molecules"
+    ],
+    "sourceProjects": [
+      "AIAcceleratedrug"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "backend/src/routes/customViews.js:188",
+        "route": "/molecules",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
     ]
@@ -6526,25 +6690,25 @@
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
-        "kind": "api",
-        "sourceProject": "AINutritionDietitianAssistant",
-        "path": "server/index.js:370",
-        "route": "/api/nutrients",
-        "originApp": "healthcare-life-sciences/elder-care-companion"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AINutritionDietitianAssistant",
-        "path": "server/index.js:372",
-        "route": "/api/nutrients",
-        "originApp": "healthcare-life-sciences/elder-care-companion"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
         "path": "client/src/pages/NutrientsPage.jsx",
         "route": "/NutrientsPage",
         "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:384",
+        "route": "/api/nutrients",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:386",
+        "route": "/api/nutrients",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
       }
     ]
   },
@@ -6584,7 +6748,7 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/ExtensionsPage.js:52",
+        "path": "frontend/src/pages/ExtensionsPage.jsx:52",
         "route": "/ext/ocr-jobs",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -6679,6 +6843,48 @@
     ]
   },
   {
+    "name": "Pipeline",
+    "canonicalKey": "pipeline",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/pipeline"
+    ],
+    "sourceProjects": [
+      "AIAcceleratedrug",
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug",
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "backend/src/routes/customViews.js:56",
+        "route": "/pipeline",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "backend/src/routes/drugCandidates.js:47",
+        "route": "/pipeline",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/agents.js:49",
+        "route": "/pipeline",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
     "name": "Predict Off Targets",
     "canonicalKey": "off predict target",
     "aliases": [],
@@ -6750,7 +6956,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "server/routes/ai.js:157",
+        "path": "server/routes/ai.js:122",
         "route": "/predictive-modeling",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -6854,7 +7060,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "server/routes/ai.js:141",
+        "path": "server/routes/ai.js:106",
         "route": "/process-optimization",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -7012,14 +7218,14 @@
       {
         "kind": "navigation",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/components/Navbar.js:13",
+        "path": "frontend/src/components/Navbar.jsx:13",
         "route": "",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/PromptTemplates.js",
+        "path": "frontend/src/pages/PromptTemplates.jsx",
         "route": "/PromptTemplates",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -7045,21 +7251,21 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/App.js:68",
+        "path": "frontend/src/App.jsx:68",
         "route": "/ai-tools/prompts",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/components/Navbar.js:13",
+        "path": "frontend/src/components/Navbar.jsx:13",
         "route": "/ai-tools/prompts",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/Dashboard.js:79",
+        "path": "frontend/src/pages/Dashboard.jsx:79",
         "route": "/ai-tools/prompts",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -7151,8 +7357,34 @@
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "server/routes/ai.js:204",
+        "path": "server/routes/ai.js:169",
         "route": "/protocol-generator",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      }
+    ]
+  },
+  {
+    "name": "Pubchem Lookup",
+    "canonicalKey": "lookup pubchem",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/pubchem-lookup"
+    ],
+    "sourceProjects": [
+      "AIAcceleratedrug"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "backend/src/routes/ai.js:1271",
+        "route": "/pubchem-lookup",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
     ]
@@ -7205,7 +7437,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "server/routes/ai.js:528",
+        "path": "server/routes/ai.js:493",
         "route": "/quality-anomaly-detect",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
@@ -7300,32 +7532,6 @@
     ]
   },
   {
-    "name": "Recipes Page",
-    "canonicalKey": "recipes",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/RecipesPage"
-    ],
-    "sourceProjects": [
-      "AIPrecisionFermentationProcessOptimizer"
-    ],
-    "consolidatedFromApps": [
-      "healthcare-life-sciences/acceleratedrug"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "client/src/pages/RecipesPage.jsx",
-        "route": "/RecipesPage",
-        "originApp": "healthcare-life-sciences/acceleratedrug"
-      }
-    ]
-  },
-  {
     "name": "Recommend Formulation",
     "canonicalKey": "formulation recommend",
     "aliases": [],
@@ -7388,14 +7594,14 @@
       {
         "kind": "navigation",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/components/Navbar.js:15",
+        "path": "frontend/src/components/Navbar.jsx:15",
         "route": "",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/RegulatoryCalendar.js",
+        "path": "frontend/src/pages/RegulatoryCalendar.jsx",
         "route": "/RegulatoryCalendar",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -7430,22 +7636,30 @@
   {
     "name": "Results",
     "canonicalKey": "result",
-    "aliases": [],
+    "aliases": [
+      "Result"
+    ],
     "kinds": [
       "api"
     ],
     "routes": [
+      "/integrations/:outboxId/result",
       "/results"
     ],
     "sourceProjects": [
       "AIAgingInPlaceHomeModificationAssessor",
       "AIAutomatepharmaceutical",
       "AIHIPAATrainingComplianceAuditor",
+      "AIPathologySlideAnalyzer",
+      "AIPatientTriageforER",
       "AIPrecisionFermentationProcessOptimizer",
-      "AIPredictdisease"
+      "AIPredictdisease",
+      "AIResearchLiteratureAgent"
     ],
     "consolidatedFromApps": [
       "healthcare-life-sciences/acceleratedrug",
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
+      "healthcare-life-sciences/ambulance-ems-dispatch",
       "healthcare-life-sciences/coaching-wellness-merged",
       "healthcare-life-sciences/hipaa-training-compliance-auditor",
       "healthcare-life-sciences/patient-triagefor-er"
@@ -7453,8 +7667,22 @@
     "evidence": [
       {
         "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/governance/router.js:270",
+        "route": "/integrations/:outboxId/result",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPatientTriageforER",
+        "path": "backend/governance/router.js:270",
+        "route": "/integrations/:outboxId/result",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIPredictdisease",
-        "path": "backend/src/routes/ai.js:654",
+        "path": "backend/src/routes/ai.js:660",
         "route": "/results",
         "originApp": "healthcare-life-sciences/patient-triagefor-er"
       },
@@ -7468,9 +7696,16 @@
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "server/routes/ai.js:564",
+        "path": "server/routes/ai.js:529",
         "route": "/results",
         "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/governance/router.js:288",
+        "route": "/integrations/:outboxId/result",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
       },
       {
         "kind": "api",
@@ -7560,7 +7795,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "server/routes/ai.js:234",
+        "path": "server/routes/ai.js:199",
         "route": "/scale-up-advisor",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -7595,28 +7830,28 @@
       {
         "kind": "page",
         "sourceProject": "AIBloodBankDonationCenter",
-        "path": "frontend/src/App.js:88",
+        "path": "frontend/src/App.jsx:88",
         "route": "/screening",
         "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "page",
         "sourceProject": "AIBloodBankDonationCenter",
-        "path": "frontend/src/pages/Dashboard.js:11",
+        "path": "frontend/src/pages/Dashboard.jsx:11",
         "route": "/screening",
         "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "page",
         "sourceProject": "AIBloodBankDonationCenter",
-        "path": "frontend/src/pages/ScreeningDetail.js",
+        "path": "frontend/src/pages/ScreeningDetail.jsx",
         "route": "/ScreeningDetail",
         "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "page",
         "sourceProject": "AIBloodBankDonationCenter",
-        "path": "frontend/src/pages/ScreeningList.js",
+        "path": "frontend/src/pages/ScreeningList.jsx",
         "route": "/ScreeningList",
         "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
@@ -7708,14 +7943,14 @@
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "server/routes/sensorData.js:70",
+        "path": "server/routes/sensorData.js:42",
         "route": "/:id/sensor-reading",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "server/routes/sensorData.js:112",
+        "path": "server/routes/sensorData.js:84",
         "route": "/:id/sensor-readings",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }
@@ -7815,7 +8050,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "server/routes/ai.js:503",
+        "path": "server/routes/ai.js:468",
         "route": "/strain-performance-predict",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
@@ -8033,19 +8268,28 @@
       "page"
     ],
     "routes": [
+      "/:id/submit",
       "/claims/submit",
       "/ext/regulatory-gateway/submit",
       "/registry/submit",
-      "/regulatory-gateway/submit"
+      "/regulatory-gateway/submit",
+      "/runs/:id/submit"
     ],
     "sourceProjects": [
+      "AIAcceleratedrug",
       "AIAutomatepharmaceutical",
       "AIPathologySlideAnalyzer",
-      "AIPhysicalTherapyMovementAnalyzer"
+      "AIPatientTriageforER",
+      "AIPhysicalTherapyMovementAnalyzer",
+      "AIResearchLiteratureAgent",
+      "tetrascience"
     ],
     "consolidatedFromApps": [
       "healthcare-life-sciences/acceleratedrug",
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
       "healthcare-life-sciences/ambulance-ems-dispatch",
+      "healthcare-life-sciences/industrial-io-t-anomaly-detector",
+      "healthcare-life-sciences/patient-triagefor-er",
       "healthcare-life-sciences/physical-therapy-movement-analyzer"
     ],
     "evidence": [
@@ -8058,6 +8302,27 @@
       },
       {
         "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/governance/router.js:94",
+        "route": "/:id/submit",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPatientTriageforER",
+        "path": "backend/governance/router.js:94",
+        "route": "/:id/submit",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "backend/src/routes/evidenceWorkflow.js:13",
+        "route": "/:id/submit",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIAutomatepharmaceutical",
         "path": "backend/src/routes/extensions.js:245",
         "route": "/regulatory-gateway/submit",
@@ -8066,9 +8331,23 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/ExtensionsPage.js:45",
+        "path": "frontend/src/pages/ExtensionsPage.jsx:45",
         "route": "/ext/regulatory-gateway/submit",
         "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/governance/router.js:112",
+        "route": "/:id/submit",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "tetrascience",
+        "path": "backend/src/routes/assayWorkflow.ts:12",
+        "route": "/runs/:id/submit",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
       },
       {
         "kind": "api",
@@ -8126,18 +8405,23 @@
       "Telemetry Page"
     ],
     "kinds": [
+      "api",
       "navigation",
       "page"
     ],
     "routes": [
       "/TelemetryPage",
-      "/telemetry"
+      "/telemetry",
+      "/work-orders/:id/telemetry"
     ],
     "sourceProjects": [
-      "AIPrecisionFermentationProcessOptimizer"
+      "AIIndustrialIoTAnomalyDetector",
+      "AIPrecisionFermentationProcessOptimizer",
+      "industrial-capabilities-in-space"
     ],
     "consolidatedFromApps": [
-      "healthcare-life-sciences/acceleratedrug"
+      "healthcare-life-sciences/acceleratedrug",
+      "healthcare-life-sciences/industrial-io-t-anomaly-detector"
     ],
     "evidence": [
       {
@@ -8160,6 +8444,20 @@
         "path": "client/src/pages/TelemetryPage.jsx",
         "route": "/TelemetryPage",
         "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIIndustrialIoTAnomalyDetector",
+        "path": "backend/routes/governedIoT.js:4",
+        "route": "/telemetry",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "industrial-capabilities-in-space",
+        "path": "backend/routes/manufacturing.js:381",
+        "route": "/work-orders/:id/telemetry",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
       }
     ]
   },
@@ -8251,21 +8549,21 @@
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/App.js:67",
+        "path": "frontend/src/App.jsx:67",
         "route": "/ai-tools/trends",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/components/Navbar.js:12",
+        "path": "frontend/src/components/Navbar.jsx:12",
         "route": "/ai-tools/trends",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "page",
         "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/Dashboard.js:78",
+        "path": "frontend/src/pages/Dashboard.jsx:78",
         "route": "/ai-tools/trends",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       },
@@ -8331,7 +8629,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "server/routes/ai.js:173",
+        "path": "server/routes/ai.js:138",
         "route": "/troubleshooting",
         "originApp": "healthcare-life-sciences/acceleratedrug"
       }

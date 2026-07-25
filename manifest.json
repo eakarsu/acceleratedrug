@@ -10,10 +10,10 @@
     "AIAutomatepharmaceutical",
     "AIPrecisionFermentationProcessOptimizer"
   ],
-  "featureCount": 193,
-  "candidateFeatureCount": 283,
-  "eliminatedSimilarFeatures": 90,
-  "evidenceCount": 657,
+  "featureCount": 195,
+  "candidateFeatureCount": 286,
+  "eliminatedSimilarFeatures": 91,
+  "evidenceCount": 688,
   "aiPageCount": 0,
   "sourceAIPageCount": 0,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
@@ -24,6 +24,6 @@
     "seededTables": 0,
     "seededRows": 0
   },
-  "visibleFeatureCount": 137,
+  "visibleFeatureCount": 136,
   "featureVisibilityMode": "source-backed-fallback"
 }
