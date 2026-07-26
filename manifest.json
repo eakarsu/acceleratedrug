@@ -14,7 +14,7 @@
   "candidateFeatureCount": 294,
   "eliminatedSimilarFeatures": 86,
   "evidenceCount": 705,
-  "aiPageCount": 15,
+  "aiPageCount": 120,
   "sourceAIPageCount": 15,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
   "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
@@ -25,5 +25,11 @@
     "seededRows": 0
   },
   "visibleFeatureCount": 208,
-  "featureVisibilityMode": "all-source-backed"
+  "featureVisibilityMode": "all-source-backed",
+  "featureSurfaces": {
+    "aiFeatures": 120,
+    "generatedAIForms": 105,
+    "tableFeatures": 88,
+    "operationRows": 1320
+  }
 }
